@@ -1,0 +1,28 @@
+# Node / client
+/client/node_modules/
+/client/dist/
+/client/.vite/
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.DS_Store
+
+# Python / backend
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+
+# General
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

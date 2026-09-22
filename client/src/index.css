@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/*
+ * Tailwind v4 has no config file - dark mode strategy is set here instead.
+ * By default `dark:` variants key off `prefers-color-scheme` (the OS
+ * setting), which is why toggling the `.dark` class on <html> (see
+ * App.jsx) had no visible effect. This line switches every `dark:` variant
+ * to key off that class instead, so the ThemeToggle button actually works.
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Outfit", sans-serif;
+}
