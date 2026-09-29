@@ -8,6 +8,11 @@ The central workflow connects operational records: dispatching a trip marks its 
 
 > **Status:** working development application with seeded demonstration data. Most operational endpoints are implemented, but authorization enforcement, concurrency handling, and some state transitions need further hardening. The configurable permission matrix currently governs much of the UI without being applied to most operational API routes. See [Known limitations](#known-limitations) before using real operational data.
 
+## Watch demo video
+
+https://youtu.be/u8ZR8nlfEGA?si=X-wRDGc2NOztcWLi
+
+
 ## Contents
 
 - [Capabilities](#capabilities)
